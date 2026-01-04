@@ -1,17 +1,32 @@
-**🔹 User Management System (PHP & MySQL)**
+# User Management System
 
-Developed a secure web-based User Management System using PHP and MySQL, implementing industry-standard authentication and authorization mechanisms.
+A secure PHP & MySQL-based user management system implementing
+authentication, CRUD operations, role-based access control, and
+profile picture upload.
 
-Implemented user login and logout functionality with encrypted password storage using password_hash() to ensure secure credential handling.
+## Features
+- User Authentication (Login/Logout)
+- Password Hashing
+- Role-Based Access (Admin/User)
+- CRUD Operations
+- Profile Management
+- SQL Injection Prevention
 
-Designed and integrated role-based access control (Admin/User) to restrict functionality based on user privileges.
+## Tech Stack
+- PHP
+- MySQL
+- HTML/CSS
+- XAMPP
 
-Built complete CRUD operations (Create, Read, Update, Delete) for efficient user data management.
+## Setup
+1. Clone the repo
+2. Import database schema
+3. Start Apache & MySQL
+4. Run login.php
 
-Integrated profile management features, including profile picture upload with file type and size validation.
+## Security
+- Prepared Statements
+- password_hash()
+- Session Handling
 
-Secured database interactions using prepared statements to prevent SQL injection attacks.
 
-Implemented session-based authentication to maintain secure user sessions across the application.
-
-Deployed and tested the application locally using XAMPP, ensuring smooth backend–database integration.
